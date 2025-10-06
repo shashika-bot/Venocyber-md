@@ -8,7 +8,7 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "losrios755@gmail.com";
 global.location = "Njombe,Tanzania.";
-global.mongodb = process.env.MONGODB_URI || "";
+global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:RhVVXvLrIXHTobpqGsuKIKbrEOAtmlVQ@nozomi.proxy.rlwy.net:39022";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VagzM5RGk1Fq9b6BCO0q";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
 global.devs = "255742862266";
-global.sudo = process.env.SUDO || "255742862266";
-global.owner = process.env.OWNER_NUMBER || "255742862266";
+global.sudo = process.env.SUDO || "94776907496";
+global.owner = process.env.OWNER_NUMBER || "94776907496";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
@@ -42,7 +42,7 @@ global.scan = "https://rb.gy/3keql8";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "LZ5iEKCI#42yqQY7VbVE1VBINRG_2M-SzhK0wKEOgujQJF5Qd6Fc"
 module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ".",
